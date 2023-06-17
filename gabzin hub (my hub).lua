@@ -1,45 +1,6 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+--[[
+ 01100010 01110010 01110101 01101000 00100000 01110111 01101000 01111001 00100000 01100100 01101111 00100000 01111001 01101111 01110101 00100000 01110111 01100001 01101110 01110100 00100000 01110011 01100101 01100101 00100000 01110100 01101000 01100101 00100000 01110011 01101111 01110101 01110010 01100011 01100101 00100000 01101111 01100110 00100000 01101101 01111001 00100000 01101000 01110101 01100010 00100000 00111010 00101000 
+STOP BRO!!! DO YOU CAN'T SEE THE SOURCE OF MY HUB!!
+]]--
 
-local Window = Library.CreateLib("! Gabzin#0000 hub :)", "GrapeTheme")
-
-local Tab = Window:NewTab("LocalPlayer")
-local Section = Tab:NewSection("LocalPlayer")
-
-
-Section:NewToggle("Flash(speed)", "make you like flash", function(state)
-    if state then
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 90
-    else
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-    end
-end)
-
-Section:NewToggle("Jump high", "make you jump high (does not work in some games)", function(state)
-    if state then
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 142
-    else
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-    end
-end)
-
-local Tab1 = Window:NewTab("Guis")
-local Section1 = Tab1:NewSection("some guis")
-
-Section1:NewButton("inf yield", "execute inf yield", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-Section1:NewButton("The most awesome explorer ev4r", "like Dark Dex", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))()
-end)
-
-local Tab2 = Window:NewTab("Made by?")
-local Section2 = Tab2:NewSection("")
-
-Section2:NewLabel("hub = ! Gabzin#0000")
-Section2:NewLabel("ui library = Kavo Library")
-Section2:NewLabel("Scripts = idk LOL")
-
-Section1:NewButton("Simple Spy", "mayble its good, i like this script", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
-     end)
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v22,v23)local v24=117 -(32 + 85) ;local v25;local v26;while true do if (v24==(1 + 0)) then while true do local v35=0 + 0 ;local v36;local v37;while true do if (v35==(957 -(892 + 65))) then v36=0 -0 ;v37=nil;v35=1 -0 ;end if (v35==1) then while true do if (v36==(0 -0)) then v37=(1641 -(87 + 263)) -(191 + 1100) ;while true do if (v37==((180 -(67 + 113)) -(0 + 0))) then if (v25==((2 -1) + 0 + 0)) then return v5(v26);end if (v25==((0 -0) + 0)) then local v40=952 -(802 + 150) ;local v41;local v42;while true do if (1==v40) then while true do if (v41==0) then v42=(0 -0) + 0 ;while true do if (v42==(878 -(282 + 595))) then v25=(2971 -1333) -(1109 + 414 + 114) ;break;end if (v42==((997 -(915 + 82)) + 0)) then local v43=0;while true do if (v43==(0 -0)) then v26={};for v44=(1 + 0) -(0 -0) , #v22 do v6(v26,v0(v4(v1(v2(v22,v44,v44 + ((2253 -(1069 + 118)) -((153 -85) + (2180 -1183))) )),v1(v2(v23,((221 + 1050) -(226 + 1044)) + ((v44-(4 -(4 -1)))% #v23) ,((118 + 0) -((823 -(368 + 423)) + 85)) + ((v44-((3733 -2545) -((1087 -(10 + 8)) + (453 -335))))% #v23) + (443 -(416 + 26)) )))%(251 + (15 -10)) ));end v43=1 + 0 ;end if (v43==(1 -0)) then v42=1 + (438 -(145 + 293)) ;break;end end end end break;end end break;end if (0==v40) then v41=430 -(44 + 386) ;v42=nil;v40=1487 -(998 + 488) ;end end end break;end end break;end end break;end end end break;end if (v24==0) then v25=(0 + 0) -0 ;v26=nil;v24=1 + 0 ;end end end local v8=loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();local v9=v8.Notify;wait(((1730 -(201 + 571)) -((2030 -(116 + 1022)) + 65)) + (0 -0) + 0 + 0 );v9({[v7("\58\212\208\216\55\239\171\211\23\222\205","\126\177\163\187\69\134\219\167")]=v7("\204\49\200\57\214\188\10\195\57\192\238\55\141\37\203\188\58\194\63\215\188\40\200\51\199\243\34\223\46\133\232\44\141\37\213\249\45\141\43\203\248\99\206\38\202\239\38\141\34\208\254\98","\156\67\173\74\165"),[v7("\114\61\163\69\19","\38\84\215\41\118\220\70")]=v7("\213\85\15\32\27\240\84","\158\48\118\66\114"),[v7("\223\190\54\17\34\122\170\245","\155\203\68\112\86\19\197")]=(18 -13) + (0 -(0 -0)) });local v10=loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();local v11=v10.CreateLib(v7("\185\6\250\55\254\90\113\235\187\22\141\102\172\0\112\240\250\6\135\127","\152\38\189\86\156\32\24\133"),v7("\97\238\86\183\67\200\95\162\75\249","\38\156\55\199"));local v12=v11:NewTab(v7("\111\167\126\125\36\35\120\251\90\173\111","\35\200\29\28\72\115\20\154"));local v13=v12:NewSection(v7("\24\22\188\208\211\189\32\53\0\186\195","\84\121\223\177\191\237\76"));v13:NewToggle(v7("\231\183\87\218\168\114\67\32\196\190\82\128","\161\219\54\169\192\90\48\80"),v7("\40\72\73\5\101\80\77\21\101\69\75\11\32\9\68\12\36\90\74","\69\41\34\96"),function(v27)if v27 then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=((1174 -(814 + 45)) -(354 -210)) -((47 + 825) -(131 + 237 + (1308 -(261 + 624)))) ;else game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=(49 -21) -12 ;end end);v13:NewToggle(v7("\1\169\206\199\74\10\34\187\203","\75\220\163\183\106\98"),v7("\212\3\177\142\119\192\13\175\203\61\204\15\170\203\63\208\5\178\203\127\221\13\191\152\119\215\13\174\203\32\214\16\177\203\62\215\66\169\132\58\220\66\189\138\58\220\17\243","\185\98\218\235\87"),function(v28)if v28 then local v32=1080 -(1020 + 60) ;local v33;while true do if (v32==(1423 -(630 + 793))) then v33=(60 -42) -(10 + 8) ;while true do if (v33==(0 -0)) then game.Players.LocalPlayer.Character.Humanoid.UseJumpPower=true;game.Players.LocalPlayer.Character.Humanoid.JumpPower=((10421 -8220) -(87 + 104 + 159)) -((244 -173) + ((6976 -(760 + 987)) -(5504 -(1789 + 124)))) ;break;end end break;end end else game.Players.LocalPlayer.Character.Humanoid.JumpPower=(892 -(745 + 21)) -(256 -(24 + 43 + (310 -197))) ;end end);local v14=v11:NewTab(v7("\141\222\53\52","\202\171\92\71\134\190"));local v15=v14:NewSection(v7("\155\38\204\41\200\46\212\37\155","\232\73\161\76"));v15:NewButton(v7("\23\181\223\2\68\23\190\213\70","\126\219\185\34\61"),v7("\226\20\203\93\103\106\114\179\238\2\200\30\107\119\114\255\227","\135\108\174\62\18\30\23\147"),function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();end);v15:NewButton(v7("\243\190\236\106\198\23\189\39\135\183\254\47\216\23\163\54\135\179\241\58\199\23\188\54\213\246\236\60\159\10","\167\214\137\74\171\120\206\83"),v7("\171\130\251\55\29\220\166\153\251\114\121\253\191","\199\235\144\82\61\152"),function()loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/awesome-explorer/main/source.lua"))();end);local v16=v11:NewTab(v7("\29\14\5\172\42\11","\75\103\118\217"));local v17=v16:NewSection(v7("\40\206\71\101\21\181","\126\167\52\16\116\217"));v15:NewButton(v7("\217\219\62","\156\168\78\64\224\212\121"),v7("\207\71\235\182\222\71\253\166\220\14\254\177","\174\103\142\197"),function()loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua",true))();end);v17:NewButton(v7("\204\68\41\92\61\55\77","\152\54\72\63\88\69\62"),v7("\93\148\208\252\93\215\193\252\79\148\215\237\78\221\212\250","\60\180\164\142"),function()loadstring(game:HttpGet("https://pastebin.com/raw/didXQtDc"))();end);local v18=v11:NewTab(v7("\63\89\90\0\105\37\244\77","\114\56\62\101\73\71\141"));local v19=v18:NewSection("");v19:NewLabel(v7("\204\173\235\155\153\248\168\155\227\185\235\193\205\182\170\139\148\232\185","\164\216\137\187"));v19:NewLabel(v7("\30\219\166\61\187\164\236\10\192\255\113\239\230\213\10\196\233\113\158\175\252\25\211\244\40","\107\178\134\81\210\198\158"));v19:NewLabel(v7("\153\59\28\139\214\190\43\78\223\134\163\60\5\194\234\133\20","\202\88\110\226\166"));v15:NewButton(v7("\249\202\2\146\251\207\131\60\146\238","\170\163\111\226\151"),v7("\36\16\41\176\52\75\119\32\5\35\242\63\65\56\45\93\112\187\120\66\62\34\20\112\166\48\71\36\105\2\51\160\49\94\35","\73\113\80\210\88\46\87"),function()loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))();end);v13:NewButton(v7("\213\132\63\200\6","\135\225\76\173\114"),v7("\170\27\230\189\163\236\164\168\15\173\188\185\169","\199\122\141\216\208\204\221"),function()game.Players.LocalPlayer.Character.Humanoid.Health=(0 -0) + 0 + 0 + 0 ;end);local v20=v11:NewTab(v7("\197\168\201\4\249\118\241\190","\150\205\189\112\144\24"));local v21=v20:NewSection("");v21:NewKeybind("Open/Close hub",v7("\24\48\134\255\22\77","\112\69\228\223\44\100\232\113"),Enum.KeyCode.Insert,function()v10:ToggleUI();end);
