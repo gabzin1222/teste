@@ -39,3 +39,7 @@ local Section2 = Tab2:NewSection("")
 Section2:NewLabel("hub = ! Gabzin#0000")
 Section2:NewLabel("ui library = Kavo Library")
 Section2:NewLabel("Scripts = idk LOL")
+
+Section1:NewButton("Simple Spy", "mayble its good, i like this script", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+     end)
